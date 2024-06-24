@@ -2,8 +2,9 @@ import subprocess
 import sys
 import re 
 import os
+import config
 
-WRITING_FP = "/Users/alex/Documents/Code/Web/alexgisi.me/alexgisi/writing"
+WRITING_FP = config.WRITING_FP 
 template_dir = os.path.join(WRITING_FP, 'templates')
 static_dir = os.path.join(WRITING_FP, 'static')
 
