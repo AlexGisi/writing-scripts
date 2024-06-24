@@ -6,4 +6,3 @@ html:
 clean:
 	rm -rf build/
 	rm essayTemplate.html
-
